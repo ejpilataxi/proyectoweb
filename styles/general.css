@@ -1,0 +1,64 @@
+/* Estilo general */
+body {
+    background: linear-gradient(to bottom, #e74c3c, #f39c12, #f1c40f); /* Degradado de tomate a amarillo */
+    color: #333; /* Color de texto, se puede ajustar según el contraste deseado */
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Estilo de fuente */
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background: #FF7043;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #BF360C;
+    color: white;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    background: #FF7043;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
